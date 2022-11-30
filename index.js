@@ -22,3 +22,15 @@ function greet(name){
 }
 
 greet('insert something');
+
+let bussines = {
+    loan: 20,
+    hours: 86,
+    interest: 1.03,
+    montly: 35,
+
+    wage: function(){
+        return this.loan * this.hours * this.interest + this.montly;
+    }
+};
+greet(bussines.wage());

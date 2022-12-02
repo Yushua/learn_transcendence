@@ -26,7 +26,6 @@ console.log(yusha.password);
 
 //constructor
 function CreateAccount(){
-    private:
         this.name = "flipy";
         this.password = "123Password";
 }

@@ -4,7 +4,10 @@ function createAccount(){
         //properties
         name: "",
         password: "",
-        timeOfCreation: ""
+        timeOfCreation: "",
+        permissionFriend: true,
+        permissionFriendRequest: false,
+        picture: ""
     };
     
 }
